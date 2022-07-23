@@ -86,7 +86,7 @@ export default function Blog() {
               social={sidebar.social}
             />
           </Grid>
-          <Images />
+          {/* <Images /> */}
           <Box sx={{ textAlign: "center", width: 50, height: 50, borderRadius: 50, position: "fixed", bottom:70, right: 15,}}>
             <Fab color="common">
               <WhatsAppIcon onClick={handleButtonClick} fontSize='large' sx={{ color: "#25d366" }} />

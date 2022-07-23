@@ -14,6 +14,9 @@ import Image from "next/image";
 import img1 from '../public/banner/ban01.jpeg';
 import img2 from  '../public/banner/ban02.jpeg';
 import img3 from  '../public/banner/ban03.jpeg';
+import helping_hand from  '../public/helping_hand.jpeg';
+
+
 import beWithUs from "../public/religious1.jpeg";
 
 import Paper from '@mui/material/Paper';
@@ -32,7 +35,7 @@ function FeaturedPost(props) {
       
       <Grid item gap={1} sx={12} md={3}>
       <Typography variant="h6" sx={{mb: 2, color: "primary.text.primary"}}>{"Be with us"}</Typography>
-        <Typography>"You can be part of us in various ways: through your words of motivation and ideas; through the words you use to speak and write for us and our activities, through sponsoring a child; through organizing our events and buying our products.",
+        <Typography>You can be part of us in various ways: through your words of motivation and ideas; through the words you use to speak and write for us and our activities",
 </Typography>
 <Link underline="hover" href="/about">
              continue ...
@@ -42,20 +45,20 @@ function FeaturedPost(props) {
       <Paper
       sx={{
         position: 'relative',
-        backgroundColor: 'grey.800',
+        // backgroundColor: 'grey.800',
         // backgroundColor: 'white',
         // color: '#fff',
         // mb: 1,
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
-        backgroundPosition: 'center',
+        // backgroundPosition: 'center',
         // backgroundImage: `url(${beWithUs})`,
         // backgroundImage:  `url(${beWithUs})`,
-        minHeight: 260
+        minHeight: 180
         
       }}
     >
-        <Image src={beWithUs} layout="fill"/>
+        <Image src={helping_hand} layout="intrinsic"/>
     
 
         </Paper>
@@ -63,7 +66,7 @@ function FeaturedPost(props) {
       </Grid>
       <Grid item gap={1}  sx={12} md={3}>
       <Typography variant="h6" sx={{mb: 2, color: "primary.text.primary"}}>{"My Story"}</Typography>
-        <Typography>ties her to her child is, despite being a biological necessity, painful. How more searing would it be for her to give up her one-and-a half-year-old baby for the simple (not that simple in the true sense of the term) reason that she can't provide for her",
+        <Typography>Ties her to her child is, despite being a biological necessity, painful. How more searing would it be for her to give up her one-and-a half-year-old baby for the simple",
 </Typography>
 <Link underline="hover" href="/about">
              continue ...
@@ -73,18 +76,18 @@ function FeaturedPost(props) {
       <Paper
       sx={{
         position: 'relative',
-        backgroundColor: 'grey.800',
-        backgroundColor: 'white',
+        // backgroundColor: 'grey.800',
+        // backgroundColor: 'white',
         color: '#fff',
         mb: 1,
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center',
-        minHeight: 260
+        // minHeight: 200
         
       }}
     >
-        <Image src={beWithUs} layout="fill"/>
+        <Image src={beWithUs} layout="intrinsic"/>
         </Paper>
       </Grid>
       

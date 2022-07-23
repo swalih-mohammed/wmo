@@ -17,8 +17,9 @@ function Footer() {
         <Box sx={{display: "flex",  justifyContent: "center", alignItems: "center", pl: 4}}>
             <Box sx={{display: "flex", flexDirection: "column"}}  >
             <Typography  sx={{mb: 1, color: "#f1faee"}}>ADDRESS</Typography>
-            <Typography sx={{color: "#f1faee"}}> 104, Crescent Heights, Kismathpur,<br></br> Hyderabad, Telengana,
-          500030.</Typography>
+            <Typography sx={{color: "#f1faee"}}> Wayanad Muslim Orphanage Muttil, Mandad Post,
+Wayanad Dist<br></br> Kerala. PIN 673122
+          .</Typography>
           </Box>
         </Box>
       </Grid>
@@ -27,11 +28,12 @@ function Footer() {
         <Box sx={{display: "flex",  justifyContent: "center"}}>
           <Box sx={{display: "flex", flexDirection: "column"}} >
         <Typography  sx={{mb: 1, color: "#f1faee"}}>CONTACT US</Typography>
-          <Link  sx={{ color: "#f1faee"}} href="tel:+91 7207724191" underline="none">
-          {"7207724191"}
+          <Link  sx={{ color: "#f1faee"}} href="tel:	
++91 4936 202294" underline="none">
+          {"+91 4936 202294"}
           </Link>
-          <Link sx={{color: "#f1faee"}} href="mailto:support@laamacademy.com" underline="none">
-          {" support@laamacademy.com"}
+          <Link sx={{color: "#f1faee"}} href="mailto:wayanadorphanage@gmail.com" underline="none">
+          {"wayanadorphanage@gmail.com"}
           </Link>
         </Box>
         </Box>
@@ -47,12 +49,12 @@ function Footer() {
           </Grid>
         </Grid>
         <Box sx={{ display: "flex",  justifyContent: "center", alignItems: "center", paddingTop:1}}>
-        <Typography  sx={{mb: 1, color: "#f1faee"}}> Laam Academy © 2022</Typography>
+        <Typography  sx={{mb: 1, color: "#f1faee"}}> WMO © 2022</Typography>
         
         </Box>
-        <Link underline="none" href="/privacy-policy">
+        {/* <Link underline="none" href="/privacy-policy">
         <Typography  sx={{mb: 1, color: "#f1faee",  display: "flex",  justifyContent: "center", alignItems: "center",}}> Privacy policy</Typography>
-        </Link>
+        </Link> */}
        </Box>
       </Container>
     </Box>
